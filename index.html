@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag & Drop</title>
+    <link id="link" rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./stle.css">
+</head>
+<body>
+    <form action="" id="form" class="col-md-4 d-flex">
+        <input type="text" id="input" placeholder="Enter Task" class="col-md-8">
+        <button id="button" class="col-md-4">Add</button>
+    </form>
+
+    <main class="box container d-flex flex-wrap justify-content-between">
+        <section id="inprogress" class="section col-md-3 mt-5"><h1>In progress</h1></section>
+        <section id="onhold" class="section  col-md-3 mt-5"><h1>On hold</h1></section>
+        <section id="review" class="section  col-md-3 mt-5"><h1>Needs review</h1></section>
+        <section id="approved" class="section  col-md-3 mt-5"><h1>Approved</h1></section>
+    </main>
+
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./popper.min.js"></script>
+    <script src="lab2.js"></script>
+    
+
+</body>
+</html>

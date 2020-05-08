@@ -1,0 +1,79 @@
+body{
+    background-color: #7296b5;
+}
+h1{
+    padding: 20px 40px;
+    margin: 0;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    color: #2b2b2d;
+    font-size: 26px;
+}
+div{
+    margin-top: 10px;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+}
+section{
+    background-color: rgba(225, 225, 225, 0.5);
+    padding: 20px;
+    /* margin: 10px; */
+}
+#inprogress h1{
+    background-color: #eaea64;
+}
+#inprogress div {
+    color: #eaea64;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#onhold h1{
+    background-color: #e46666;
+}
+#onhold div {
+    color: #e46666;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#review h1{
+    background-color: #d7e4ec;
+}
+#review div {
+    color: #d7e4ec;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#approved h1 {
+    background-color: #9cfb91;
+}
+
+#approved div{
+    color: #9cfb91;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#form{
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+input{
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+button{
+    padding: 13px 20px;
+    border-radius: 5px;
+    background-color: royalblue;
+    border: none;
+    color: #ddd;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
